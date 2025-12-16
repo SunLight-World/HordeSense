@@ -7,10 +7,16 @@
 #include "MainGameMode.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class HORDESENSE_API AMainGameMode : public AGameMode
 {
 	GENERATED_BODY()
+
+public:
+	AMainGameMode();
+
+protected:
+	virtual void BeginPlay() override;
 };
